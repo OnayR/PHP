@@ -1,0 +1,26 @@
+body {
+    background-image: url("https://www.technikum-wien.at/fileadmin/_processed_/csm_2017-03-31_16-00-00_1e1b3f9b0a.jpg");
+}
+
+.links {
+    display: inline;
+    margin-left: 50px;
+    margin-bottom: 10px;
+}
+
+.links2 {
+    color: black;
+    text-decoration: none;
+}
+
+.links2:hover {
+    color: #ff0000;
+    text-decoration: underline;
+}
+
+.linkhousing {
+    background-color: rgba(123, 123, 123, 0.3);
+    border-radius: 5px;
+    padding: 10px;
+    text-align: right;
+}

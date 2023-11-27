@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Login Page</title>
+</head>
+
+<style>
+    body {
+        text-align: center;
+    }
+</style>
+
+<body>
+    <h1>Login</h1>
+    <form action="index.php" method="post">
+        <label for="cursistnr">Cursistnummer:</label>
+        <input type="number" id="cursistnr" name="cursistnr" required min="0"><br><br>
+        <label for="name">Voornaam:</label>
+        <input type="text" id="name" name="name" required><br><br>
+        <label for="lastname">Achternaam:</label>
+        <input type="text" id="lastname" name="lastname" required><br><br>
+        <label for="straat">Straat:</label>
+        <input type="text" id="straat" name="straat" required><br><br>
+        <label for="postcode">Postcode:</label>
+        <input type="text" id="postcode" name="postcode" required><br><br>
+        <label for="plaats">Plaats:</label>
+        <input type="text" id="plaats" name="plaats" required><br><br>
+        <label for="geslacht">Geslacht:</label>
+        <select id="geslacht" name="geslacht">
+            <option value="M">Man</option>
+            <option value="V">Vrouw</option>
+            <option value="A">Anders</option>
+        </select>
+        <br><br>
+        <label for="geb_datum">Geboorte datum:</label>
+        <input type="text" id="geb_datum" name="geb_datum" required><br><br>
+        <input type="submit" value="Login">
+    </form>
+</body>
+
+</html>
